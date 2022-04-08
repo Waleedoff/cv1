@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>-cv</title>
+    <!-- link style sheet Css  -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- link the jQuery Source -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <!-- jQuery Code Down -->
+  <script>
+      $(function()
+      {
+          var $WinH=$(window).height(),
+               $upperbarH=$('.upper-bar').innerHeight(),
+               $navbarH=$('.navbar').innerHeight();
+               $('.slider .carousel-item').height($WinH-($upperbarH+$navbarH));
+      })
+  </script>
+
+  <!-- jQuery Code is UP -->
+  <body>
+      <!-- start the upper-bar -->
+      
+        <div class="upper-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm">
+                        Call:0501361541
+                    </div>
+                    <div class="ff col-sm ">
+                        Email:waled988@homtmail.com
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+      <!-- end the upper-bar -->
+
+
+      <!-- start our navbar section -->
+        <nav class="navbar navbar-expand-lg dark bg-dark ">
+            <div class="container">
+                <a href="#" class="navbar-brand">
+                    <span>Wly</span><span>.Org</span>
+                </a>
+                <button class="navbar-toggler" data-target="#main-nav" data-toggle="collapse" type="button">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="main-nav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a href="#" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a href="#" class="nav-link">Blog</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a href="#" class="nav-link">Service</a>
+                        </li>
+                        <!-- dropdown item -->
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" role="button" data-toggle="dropdown">
+                                Contact
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a href="#" class="dropdown-item">Facebook</a>
+                                <a href="#" class="dropdown-item">Twitter</a>
+                                <a href="#" class="dropdown-item">Linked</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+      <!-- end our navbar section -->
+
+      <!-- start with slider carousel  -->
+        <div class="slider">
+            <div class="carousel slide" data-ride="carousel" id="main-slider">
+                <div class="carousel-inner">
+                    <h1>I'm an independent  <br> Design and <span>Development</span></h1>
+                    <div class="overlay"></div>
+                    <div class="carousel-item carousel-one active"></div>
+                    <div class="carousel-item carousel-two"> </div>
+                    <div class="carousel-item carousel-three"></div>
+                </div>
+
+                <ol class="carousel-indicators">
+                    <li data-target="#main-slider" data-slide-to="0" class="active"></li>
+                    <li data-target="#main-slider" data-slide-to="1"></li>
+                    <li data-target="#main-slider" data-slide-to="2"></li>
+                </ol>
+            </div>
+        </div>
+
+      <!-- End with slider carousel -->
+
+    </body>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
